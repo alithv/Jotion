@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Heading } from "@/app/_component/heading";
 import Image from "next/image";
 import Heroes from "../_component/heroes";
+import Footer from "../_component/footer";
 
 const MarketingPage = () => {
   return (
@@ -10,6 +11,7 @@ const MarketingPage = () => {
         <Heading />
         <Heroes />
       </div>
+      <Footer />
     </div>
   );
 };

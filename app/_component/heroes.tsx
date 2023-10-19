@@ -12,7 +12,7 @@ const Heroes = () => {
             alt="Documents"
           />
         </div>
-        <div className="relative h-[400px] w-[400px]">
+        <div className="relative h-[400px] w-[400px] md:block hidden">
           <Image
             src="/reading.png"
             fill
